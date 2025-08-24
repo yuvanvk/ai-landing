@@ -1,7 +1,6 @@
 "use client";
 
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import Image from "next/image";
 
 export const Features = () => {
   const tabs = [

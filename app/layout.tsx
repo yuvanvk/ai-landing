@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "AI landing page",
   description: "A landing page for an AI startup",
+  icons: {
+    icon: "/assets/logo.svg"
+  }
 };
 
 export default function RootLayout({
