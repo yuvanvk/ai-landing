@@ -28,33 +28,33 @@ export const LogoTicker = () => {
     },
     {
       src: "/assets/logo-acme.png",
-      alt: "logo-acme",
+      alt: "logo-acme1",
     },
     {
       src: "/assets/logo-pulse.png",
-      alt: "logo-pulse",
+      alt: "logo-pulse1",
     },
     {
       src: "/assets/logo-echo.png",
-      alt: "logo-echo",
+      alt: "logo-echo1",
     },
     {
       src: "/assets/logo-celestial.png",
-      alt: "logo-celestial",
+      alt: "logo-celestial1",
     },
     {
       src: "assets/logo-apex.png",
-      alt: "logo-apex",
+      alt: "logo-apex1",
     },
     {
       src: "assets/logo-quantum.png",
-      alt: "logo-quantum",
+      alt: "logo-quantum1",
     },
   ];
 
   return (
-    <div className="flex items-center justify-center w-full py-20 md:py-28 max-w-7xl mx-auto">
-      <div className="flex items-center  gap-5">
+    <div className="flex items-center justify-center  py-20 md:py-28 max-w-7xl mx-auto px-5 md:px-10 lg:px-20">
+      <div className="flex items-center  gap-5 overflow-hidden">
         <div className="flex-1 md:flex-none text-sm">
           Trusted by top innovative teams
         </div>
