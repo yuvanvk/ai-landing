@@ -15,22 +15,22 @@ export const Footer = () => {
   ];
 
   return (
-    <div className="flex flex-col items-start justify-between space-y-5 border-t border-white/20 px-4 py-4 lg:flex-row lg:items-center">
+    <div className="flex flex-col  justify-between space-y-5 border-t border-white/20 p-4 lg:px-10 lg:py-3 lg:flex-row lg:items-center">
       <div className="flex items-center gap-3">
         <img src={"/assets/logo.svg"} className="h-8 w-8 rounded-lg bg-white" />
         <div>AI Landing page</div>
       </div>
-      <div className="flex flex-col items-start gap-y-4 text-neutral-500 lg:flex-row lg:items-center lg:gap-x-5">
-        <div>Features</div>
-        <div>Developers</div>
-        <div>Company</div>
-        <div>Blog</div>
-        <div>Changelog</div>
+      <div className="flex flex-col  gap-y-4 text-neutral-500 lg:flex-row lg:items-center lg:gap-x-5">
+        <a href="#">Features</a>
+        <a href="#">Developers</a>
+        <a href="#">Company</a>
+        <a href="#">Blog</a>
+        <a href="#">Changelog</a>
       </div>
 
       <div className="flex items-center gap-3">
         {socialHandles.map((handle) => (
-          <img
+          <img key={handle.alt}
             src={handle.src}
             alt={handle.alt}
             className="h-8 w-8 rounded-lg bg-neutral-500"
