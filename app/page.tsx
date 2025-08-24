@@ -1,3 +1,4 @@
+import { CTA } from "@/components/cta";
 import { Features } from "@/components/features";
 import { Hero } from "@/components/hero";
 import { LogoTicker } from "@/components/logo-ticker";
@@ -12,6 +13,7 @@ export default function Home() {
       <LogoTicker />
       <Features />
       <Testimonials />
+      <CTA />
     </>
   );
 }
