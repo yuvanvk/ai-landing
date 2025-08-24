@@ -34,21 +34,23 @@ export const Features = () => {
   const icon = "/assets/product-image.png";
 
   return (
-    <div className="max-w-4xl mx-auto py-20 md:py-24">
-      <div className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
+    <div className="max-w-7xl mx-auto py-20 md:py-24 space-y-5">
+      <div className="space-y-3">
+        <div className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
         Elevate your seo efforts.
       </div>
       <div className="text-center text-white/70 text-lg md:text-xl max-w-2xl mx-auto tracking-tight">
         From small startups to large enterprises, our AI-driven tool has
         revolutionized the way business approach SEO.
       </div>
-      <div className="flex flex-col gap-3 lg:flex-row">
+      </div>
+      <div className="flex flex-col gap-3 lg:flex-row w-full">
         {tabs.map((tab) => (
           <div
             key={tab.title}
-            className="flex items-center border border-white/15 p-2.5 gap-2.5 rounded-xl "
+            className="flex items-center border border-white/15 p-2.5 gap-2.5 rounded-xl flex-1"
           >
-            <div className="w-12 h-12 inline-flex justify-center items-center border border-white/15 rounded-lg lg:flex-1">
+            <div className="w-12 h-12 inline-flex justify-center items-center border border-white/15 rounded-lg">
               <DotLottieReact className="w-5 h-5" src={tab.icon} autoplay />
             </div>
             <div className="font-medium">{tab.title}</div>
