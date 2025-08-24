@@ -36,11 +36,11 @@ export const Features = () => {
     <div className="max-w-7xl mx-auto py-20 md:py-24 space-y-5 px-5 md:px-10 lg:px-20">
       <div className="space-y-3">
         <div className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
-        Elevate your seo efforts.
+        Elevate your seo efforts&#46;
       </div>
       <div className="text-center text-white/70 text-lg md:text-xl max-w-2xl mx-auto tracking-tight">
         From small startups to large enterprises, our AI-driven tool has
-        revolutionized the way business approach SEO.
+        revolutionized the way business approach SEO&#46;
       </div>
       </div>
       <div className="flex flex-col gap-3 lg:flex-row w-full">

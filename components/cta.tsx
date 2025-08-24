@@ -16,10 +16,10 @@ export const CTA = () => {
         <div className="relative space-y-10">
           <div className="space-y-3">
             <div className="text-center text-5xl md:text-6xl font-medium tracking-tighter max-w-sm mx-auto">
-              AI-driven SEO for everyone.
+              AI-driven SEO for everyone&#46;
             </div>
             <div className="px-4 text-center text-lg md:text-xl max-w-xs mx-auto tracking-tight text-white/70">
-              Achieve clear, impactful results without the complexity.
+              Achieve clear, impactful results without the complexity&#46;
             </div>
           </div>
           <div className="flex justify-center">

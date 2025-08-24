@@ -32,10 +32,10 @@ export const Testimonials = () => {
     <div className="mx-auto w-full space-y-8 py-20 md:py-24 lg:max-w-7xl px-5 md:px-10 lg:px-20">
       <div className="space-y-3">
         <div className="text-5xl text-center font-medium tracking-tighter md:text-6xl">
-          Beyond expectations.
+          Beyond expectations&#46;
         </div>
         <div className="mx-auto max-w-sm text-center text-lg tracking-tight text-white/70 md:text-xl">
-          Our revolutinary AI SEO tools have transformed our client's
+          Our revolutinary AI SEO tools have transformed our client&apos;s
         </div>
       </div>
       <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
