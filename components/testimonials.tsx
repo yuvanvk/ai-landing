@@ -1,4 +1,8 @@
-const testimonials = [
+"use client";
+import { motion } from "motion/react";
+
+export const Testimonials = () => {
+  const testimonials = [
   {
     text: `"This product has completely transformed how I manage my projects and deadlines"`,
     name: "Sophia Perez",
@@ -24,22 +28,21 @@ const testimonials = [
     avatarImg: "/assets/avatar-4.png",
   },
 ];
-export const Testimonials = () => {
   return (
-    <div className="mx-auto w-full space-y-8 py-20 md:py-24 lg:max-w-7xl px-5">
+    <div className="mx-auto w-full space-y-8 py-20 md:py-24 lg:max-w-7xl px-5 md:px-10 lg:px-20">
       <div className="space-y-3">
-        <div className="text-5x text-center font-medium tracking-tighter md:text-6xl">
+        <div className="text-5xl text-center font-medium tracking-tighter md:text-6xl">
           Beyond expectations.
         </div>
         <div className="mx-auto max-w-sm text-center text-lg tracking-tight text-white/70 md:text-xl">
           Our revolutinary AI SEO tools have transformed our client's
         </div>
       </div>
-      <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
-        <div className="flex gap-5">
-          {testimonials.map((testimonial) => (
+      <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
+        <motion.div initial={{ translateX: "-50%" }} animate={{ translateX: "0" }} transition={{ duration: 30, repeat: Infinity, ease: "linear"}} className="flex gap-5 pr-5 flex-none">
+          {[...testimonials, ...testimonials].map((testimonial, idx) => (
             <div
-              key={testimonial.name}
+              key={idx}
               className="max-w-xs flex-none space-y-6 rounded-xl border border-white/15 bg-[linear-gradient(to_bottom_left,rgb(140,69,255,.3),black)] p-6 md:max-w-md md:p-10"
             >
               <div className="text-lg tracking-tight md:text-2xl">
@@ -62,7 +65,7 @@ export const Testimonials = () => {
               </div>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

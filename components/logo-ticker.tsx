@@ -59,7 +59,7 @@ export const LogoTicker = () => {
           Trusted by top innovative teams
         </div>
         <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
-          <motion.div initial={{ translateX: "-50%" }} animate={{ translateX: "0" }} transition={{ duration: 30, repeat: Infinity, ease: "linear" }} className="flex flex-none gap-14 pr-14 -translate-x-0">
+          <motion.div initial={{ translateX: "-50%" }} animate={{ translateX: "0" }} transition={{ duration: 30, repeat: Infinity, ease: "linear" }} className="flex flex-none gap-14 pr-14">
             {images.map((img) => {
               return (
                 <img

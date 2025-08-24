@@ -34,7 +34,7 @@ export const Features = () => {
   const icon = "/assets/product-image.png";
 
   return (
-    <div className="max-w-7xl mx-auto py-20 md:py-24 space-y-5">
+    <div className="max-w-7xl mx-auto py-20 md:py-24 space-y-5 px-5 md:px-10 lg:px-20">
       <div className="space-y-3">
         <div className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
         Elevate your seo efforts.
